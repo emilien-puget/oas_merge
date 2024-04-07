@@ -21,6 +21,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace (
-	github.com/pb33f/libopenapi v0.15.14 => github.com/emilien-puget/libopenapi float_format
-)
+replace github.com/pb33f/libopenapi v0.15.14 => github.com/emilien-puget/libopenapi v0.0.0-20240407095204-0c307d09ccb9
